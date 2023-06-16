@@ -70,6 +70,7 @@ func configureLDAPServer(rawURL string, client *ldap.LDAPClient) error {
 	client.Host = host
 	client.Port = port
 	client.UseSSL = useSSL
+	client.SkipTLS = true
 
 	if useSSL {
 		client.ServerName = host

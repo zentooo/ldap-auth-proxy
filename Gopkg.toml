@@ -39,4 +39,4 @@
 
 [[constraint]]
   name = "github.com/jtblin/go-ldap-client"
-  version = "0.0.3"
+  branch = "master"
